@@ -1,5 +1,8 @@
-const chorus = "Let's dance!";
-for (let repeat = 0; repeat < 10; repeat++) {
-  console.log(chorus);
+function dog(max) {
+  var catMessage = ""
+  for (var i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
 }
-console.log("Untill the sun comes up!");
+console.log(dog(12));
